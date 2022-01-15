@@ -20,5 +20,5 @@
       state: restarted
   - name: test html page is installed
     copy:
-      content: "Welcome to the Page Cloud Academy"
+      src: /var/lib/jenkins/workspace/gitpullfordeployment/index.html
       dest: /var/www/html/index.html
